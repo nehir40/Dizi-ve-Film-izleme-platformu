@@ -6,12 +6,16 @@ Netflix benzeri bir dizi ve film izleme platformu icin tasarlanmis SQL veritaban
 
 ### Tablolar
 
-| Tablo            | Aciklama                              |
-|------------------|---------------------------------------|
-| KULLANICILAR     | Kullanici bilgileri ve abonelik turleri |
-| ICERIKLER        | Film ve dizi bilgileri                |
-| IZLEME_GECMISI   | Kullanicilarin izleme gecmisi         |
-| FAVORILER        | Kullanicilarin favori icerikleri      |
+| Tablo            | Aciklama                                      |
+|------------------|-----------------------------------------------|
+| KULLANICILAR     | Kullanici bilgileri ve abonelik turleri       |
+| ICERIKLER        | Film ve dizi bilgileri                        |
+| OYUNCULAR        | Oyuncu bilgileri (ad, dogum tarihi, uyruk)   |
+| KATEGORILER      | Icerik kategorileri (aksiyon, korku vb.)     |
+| IZLEME_GECMISI   | Kullanicilarin izleme gecmisi ve suresi       |
+| FAVORILER        | Kullanicilarin favori icerikleri              |
+| ICERIK_KATEGORI  | Icerik ve kategori arasindaki iliski tablosu |
+| ICERIK_OYUNCU    | Icerik ve oyuncu arasindaki iliski + roller  |
 
 ### Abonelik Turleri
 - Temel
